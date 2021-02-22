@@ -1,5 +1,5 @@
 #Version: 0.0.`
-FROM ubuntu:14.04
+FROM ubuntu:latest
 MAINTAINER Noel Presti "NoelXP@Gmail.com"
 RUN apt-get update
 RUN apt-get install -y nginx
